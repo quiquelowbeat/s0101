@@ -1,6 +1,6 @@
 package n2exercici4;
 
-public class main {
+public class Main {
 
 	public static void main(String[] args) {
 		
@@ -14,6 +14,9 @@ public class main {
 			r.ensumar();
 			r.rossegar();
 			r.correr();
+			
+			// Els mètodes funcionen correctament perque pertanyen a totes les classes. 
+			
 			
 		}
 	}

@@ -12,6 +12,7 @@ public class Main {
 	}
 
 	public static void ride(Cycle c) {
-		System.out.println(c.getClass().getSimpleName() + " en movimiento.");
+		String rueda = (c.wheels()== 1) ? " rueda" : " ruedas";
+		System.out.println(c.getClass().getSimpleName() + " tiene " + c.wheels() + rueda + ".");
 	}
 }
